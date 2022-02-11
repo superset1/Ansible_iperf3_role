@@ -1,14 +1,14 @@
 ---
 # vars file for iperf3
-owner                        : Vitaly Kargin
+owner: Vitaly Kargin
 
-ansible_user                 : ubuntu # Write your login for the remote hosts
-ansible_password             : "1" # Write here your ssh password for the remote hosts
-ansible_ssh_private_key_file : /home/vitaly/.ssh/id_rsa # Write your path to ssh keys
+ansible_user: ubuntu # Write your login for the remote hosts
+ansible_password: "1" # Write here your ssh password for the remote hosts
+ansible_ssh_private_key_file: /home/vitaly/.ssh/id_rsa # Write your path to ssh keys
 
-timer                        : 3600 # Delay time in seconds between speed measurements
-dbname                       : testhosts # Write your database name
-dbuser                       : "vitaly" # Write your database user name
-dbpassword                   : "123" # Write your database password
-dbhost                       : localhost # Write your MySQL server host
-pkg                          : iperf3 # Package name
+timer: 3600 # Delay time in seconds between speed measurements
+dbname: testhosts # Write your database name
+dbuser: "vitaly" # Write your database user name
+dbpassword: "123" # Write your database password
+dbhost: localhost # Write your MySQL server host
+pkg: iperf3 # Package name
