@@ -1,0 +1,20 @@
+galaxy_info:
+  role_name: iperf3
+  author: Vitaly Kargin
+  description: Checking the availability of hosts from the MySQL list and testing them with the iperf3 utility
+
+  license: MIT
+
+  github_branch: master
+
+  platforms:
+    - name: Debian
+      versions: all
+    - name: Ubuntu
+      versions: all
+
+  galaxy_tags:
+    - iperf
+    - iperf3
+    - network
+dependencies: []
